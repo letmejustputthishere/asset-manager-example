@@ -42,6 +42,8 @@ const frontendDirectory = "big_assets_frontend";
 
 const frontend_entry = path.join("src", frontendDirectory, "src", "index.html");
 
+console.log(canisterEnvVariables)
+
 module.exports = {
   target: "web",
   mode: isDevelopment ? "development" : "production",
